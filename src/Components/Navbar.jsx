@@ -1,7 +1,7 @@
+import PropTypes from 'prop-types';
 import { useEffect, useRef } from "react";
-import PropTypes from "prop-types";
 
-const Navbar = ({ navOpen }) => {
+const Navbar = ({ navOpen })  => {
   const lastActiveLink = useRef();
   const activebox = useRef();
 
@@ -68,7 +68,8 @@ const Navbar = ({ navOpen }) => {
 };
 
 Navbar.propTypes = {
-  navOpen: PropTypes.bool.isRequired
+  navOpen: PropTypes.bool.isRequired,
 };
 
 export default Navbar;
+

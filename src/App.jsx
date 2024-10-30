@@ -1,7 +1,7 @@
 import Navbar from "./Components/Header"
 import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
-import About from "./Components/about"
+import About from "./Components/About"
 import Hero from "./Components/Hero"
 import Review from "./Components/Review"
 import Skills from "./Components/Skills"
@@ -36,10 +36,10 @@ const App = () => {
   return (
     <ReactLenis root>
       <Navbar />
-       <Hero />
+      <Hero />
       <About />
       <Skills />
-       <Work />
+      <Work />
       <Review />
       <Contact />
       <Footer />

@@ -1,5 +1,3 @@
-import PropTypes from "prop-types"
-
 const WorkCard = ({imgSrc,title,tags,projectLink,classes}) => {
   return (
     <div className={'relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinv-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors ' + classes}>
@@ -25,11 +23,5 @@ const WorkCard = ({imgSrc,title,tags,projectLink,classes}) => {
     </div>
   )
 }
-WorkCard.PropTypes ={
-    imgSrc:PropTypes.string.isRequired,
-    title:PropTypes.string.isRequired,
-    tags:PropTypes.arrayOf(PropTypes.string).isRequired,
-    projectLink:PropTypes.string.isRequired,
-    classes:PropTypes.string
-}
+
 export default WorkCard
