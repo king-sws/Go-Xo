@@ -3,40 +3,40 @@ import WorkCard from "./WorkCard";
 const Work = () => {
     const works = [
         {
-          imgSrc: '/Hotql.png',
+          imgSrc: '/jj.jpeg',
           title: 'Hotel reservations',
           tags: ['API', 'MVC', 'Development'],
-          projectLink: 'https://www.github.com/king-sws'
-        },
-        {
-          imgSrc: '/Proto.png',
-          title: 'A Portfolio Web',
-          tags: ['API', 'SPA'],
-          projectLink : "https://www.github.com/king-sws"
-        },
-        {
-          imgSrc: '/Robot.png',
-          title: 'Next Payment Method',
-          tags: ['Development', 'API'],
-          projectLink: 'https://www.github.com/king-sws'
-        },
-        {
-          imgSrc: '/first1.png',
-          title: 'CRM new website',
-          tags: ['Web-design', 'Development'],
-          projectLink: 'https://www.github.com/king-sws'
-        },
-        {
-          imgSrc: '/Dach.png',
-          title: 'DashBord website',
-          tags: ['eCommerce', 'Development'],
-          projectLink: 'https://www.github.com/king-sws'
+          projectLink: 'https://houses-eight-blond.vercel.app'
         },
         {
           imgSrc: '/ho.jpeg',
           title: 'Health App',
           tags: ['Web-design', 'Development'],
-          projectLink: 'https://www.github.com/king-sws'
+          projectLink: 'https://medical-six-teal.vercel.app/'
+        },
+        {
+          imgSrc: '/Robot.png',
+          title: 'Next Payment Method',
+          tags: ['Development', 'API'],
+          projectLink: 'https://modern-web-ten.vercel.app'
+        },
+        {
+          imgSrc: '/first1.png',
+          title: 'CRM new website',
+          tags: ['Web-design', 'Development'],
+          projectLink: 'https://crm-app-phi.vercel.app'
+        },
+        {
+          imgSrc: '/Hotql.png',
+          title: 'Airbnb website',
+          tags: ['Api', 'Development'],
+          projectLink: 'https://github.com/king-sws/Airbnb'
+        },
+        {
+          imgSrc: '/moo.jpeg',
+          title: 'A Modern Web',
+          tags: ['API', 'SPA', 'Dev'],
+          projectLink : "https://www.github.com/king-sws"
         },
       ];
   return (
