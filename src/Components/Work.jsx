@@ -3,10 +3,22 @@ import WorkCard from "./WorkCard";
 const Work = () => {
     const works = [
         {
+          imgSrc: '/mom.jpeg',
+          title: 'Modern Web',
+          tags: ['Web-design', 'MVC', 'Development'],
+          projectLink: 'https://modern-web-app-chi.vercel.app/'
+        },
+        {
           imgSrc: '/jj.jpeg',
           title: 'Hotel reservations',
           tags: ['API', 'MVC', 'Development'],
           projectLink: 'https://houses-eight-blond.vercel.app'
+        },
+        {
+          imgSrc: '/moo.jpeg',
+          title: 'A Modern Web',
+          tags: ['API', 'SPA', 'Dev'],
+          projectLink : "https://www.github.com/king-sws"
         },
         {
           imgSrc: '/ho.jpeg',
@@ -26,18 +38,7 @@ const Work = () => {
           tags: ['Web-design', 'Development'],
           projectLink: 'https://crm-app-phi.vercel.app'
         },
-        {
-          imgSrc: '/Hotql.png',
-          title: 'Airbnb website',
-          tags: ['Api', 'Development'],
-          projectLink: 'https://github.com/king-sws/Airbnb'
-        },
-        {
-          imgSrc: '/moo.jpeg',
-          title: 'A Modern Web',
-          tags: ['API', 'SPA', 'Dev'],
-          projectLink : "https://www.github.com/king-sws"
-        },
+
       ];
   return (
     <section id="work" className="sec">
