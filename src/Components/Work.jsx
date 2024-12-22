@@ -6,7 +6,7 @@ const Work = () => {
           imgSrc: '/mom.jpeg',
           title: 'Modern Web',
           tags: ['Web-design', 'MVC', 'Development'],
-          projectLink: 'https://modern-web-app-chi.vercel.app/'
+          projectLink: 'https://modern-web-design-one.vercel.app/'
         },
         {
           imgSrc: '/jj.jpeg',
