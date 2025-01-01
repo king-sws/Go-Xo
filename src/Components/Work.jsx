@@ -3,16 +3,28 @@ import WorkCard from "./WorkCard";
 const Work = () => {
     const works = [
         {
+          imgSrc: '/dark.jpeg',
+          title: 'Dark Landing Page',
+          tags: ['Web-design', 'Development'],
+          projectLink: 'https://dark-landing-page-rho.vercel.app/'
+        },
+        {
+          imgSrc: '/saas.jpeg',
+          title: 'Saas Landing Page',
+          tags: ['Web-design', 'Development'],
+          projectLink: 'https://saas-page-gamma.vercel.app/'
+        },
+        {
           imgSrc: '/mom.jpeg',
           title: 'Modern Web',
-          tags: ['Web-design', 'MVC', 'Development'],
+          tags: ['Web-design', 'Development'],
           projectLink: 'https://modern-web-design-one.vercel.app/'
         },
         {
-          imgSrc: '/jj.jpeg',
-          title: 'Hotel reservations',
-          tags: ['API', 'MVC', 'Development'],
-          projectLink: 'https://houses-eight-blond.vercel.app'
+          imgSrc: '/Robot.png',
+          title: 'Next Payment Method',
+          tags: ['Development', 'API'],
+          projectLink: 'https://modern-web-ten.vercel.app'
         },
         {
           imgSrc: '/moo.jpeg',
@@ -26,17 +38,25 @@ const Work = () => {
           tags: ['Web-design', 'Development'],
           projectLink: 'https://medical-six-teal.vercel.app/'
         },
+
         {
-          imgSrc: '/Robot.png',
-          title: 'Next Payment Method',
-          tags: ['Development', 'API'],
-          projectLink: 'https://modern-web-ten.vercel.app'
+          imgSrc: '/jj.jpeg',
+          title: 'Hotel reservations',
+          tags: ['API', 'MVC', 'Development'],
+          projectLink: 'https://houses-eight-blond.vercel.app'
         },
+        
         {
           imgSrc: '/first1.png',
           title: 'CRM new website',
           tags: ['Web-design', 'Development'],
           projectLink: 'https://crm-app-phi.vercel.app'
+        },
+        {
+          imgSrc: '/Hotql.png',
+          title: 'Airbnb website',
+          tags: ['API', 'Development'],
+          projectLink: 'https://github.com/king-sws'
         },
 
       ];
